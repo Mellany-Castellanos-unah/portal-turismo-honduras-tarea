@@ -24,7 +24,91 @@
         </nav>
     </header>
 
-    <main>
+    <main class="main__contenedor">
+        <section class="main__contenedor-Form">
+            <h2>Formulario de Reservaciones</h2>
+       <form action="afiliados.php" ,method="POST",enctype="multipart/form-data">
+       <fieldset class="main__contenedor-Form-DatosPersonales">
+        <legend >Datos Personales </legend>
+        
+            <label class="main__contenedor-Form-DatosPersonales-InputLabel">Nombre del viajero titular: </label>
+            <input class="main__contenedor-Form-DatosPersonales-Input" type="text" name="nombre" id="nombre" required placeholder="Ingrese su nombre y apellido" minlength="10" maxlength="100">
+
+            <label class="main__contenedor-Form-DatosPersonales-InputLabel">DNI del viajero titular:</label>
+            <input class="main__contenedor-Form-DatosPersonales-Input" type="text" name="dni" id="dni" required placeholder="Ingrese su DNI" minlength="13" maxlength="13" required pattern="[0-9]{4}-[0-9]{4}-[0-9]{5}">
+
+            <label class="main__contenedor-Form-DatosPersonales-InputLabel">Ingrese su fecha de nacimiento</label>
+            <input class="main__contenedor-Form-DatosPersonales-Input" type="date" name="fechaNa" id="fechaNa" required placeholder="Ingrese su fecha de nacimiento " min="1945-01-01" max="2008-01-01">
+
+            <label class="main__contenedor-Form-DatosPersonales-InputLabel">Ingrese su direccion </label>
+            <input class="main__contenedor-Form-DatosPersonales-Input" type="text" name="direccion" id="direccion" required placeholder="Ingrese su direccion" >
+
+            <label class="main__contenedor-Form-DatosPersonales-InputLabel">Numero de telefono:</label>
+            <input  class="main__contenedor-Form-DatosPersonales-Input" type="tel" name="numero" id="numero" required placeholder="Ingrese su numero de telefono" minlength="11" maxlength="11" required pattern="">
+
+            <label class="main__contenedor-Form-DatosPersonales-InputLabel">Correo electronico:</label>
+            <input class="main__contenedor-Form-DatosPersonales-Input" type="email" name="correoE" id="correoE" required placeholder="Ingrese su correo electronico" minlength="30" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}" >
+
+
+        </div>
+        </fieldset>
+
+        <fieldset class="main__contenedor-Form-DatosReserva">
+            <legend> Datos de Reserva</legend>
+            <div>
+            <label class="main__contenedor-Form-DatosReserva-InputLabel">Seleccione su paquete a reservar: </label>
+            <select class="main__contenedor-Form-DatosReserva-Input" id="Ruta" name="Ruta">
+                <option >Ruta Costera</option>
+                <option>Ruta Aventurera</option>
+                <option>Ruta Cafetalera</option>
+                <option>Ruta Cultural</option>
+            </select>
+
+            <label class="main__contenedor-Form-Reserva-InputLabel">Seleccione el tipo de hospedaje requerido: </label>
+            <select class="main__contenedor-Form-DatosReserva-Input" id="Ruta" name="Ruta">
+                <option >Cabaña ecológica</option>
+                <option>hotel colonial</option>
+                <option>campamento de montaña</option>
+            </select>
+        </div>
+        </fieldset>
+
+        <fieldset class="main__contenedor-Form-guiabilingue">
+            <legend>¿Necesita guia bilingue?</legend>
+            <label for="guiabilingue_si">
+                <input type="checkbox" id="guiabilingue_si" name="guiabilingue" value="si">
+                Sí
+            </label>
+            <label for="guiabilingue_no">
+                <input type="checkbox" id="guiabilingue_no" name="guiabilingue" value="no">
+                No
+            </label>
+        </fieldset>
+
+        <div class="formulario__grupo-compromiso">
+        <div class="compromiso__contenedor-check">
+        <input 
+            type="checkbox" 
+            id="compromiso_ecologico" 
+            name="compromiso_ecologico" 
+            value="aceptado"
+            required
+            aria-required="true"
+            aria-describedby="compromiso-descripcion">
+        <label for="compromiso_ecologico" class="compromiso__label">
+            Acepto y me comprometo firmemente con la conservación ecológica y la protección del patrimonio cultural de Honduras. *
+        </label>
+    </div>
+    
+    <p id="compromiso-descripcion" class="compromiso__texto-ayuda">
+        Al marcar esta casilla, aceptas respetar la flora, fauna, sitios arqueológicos y normas locales durante tu recorrido turistico por las rutas de HonduTravel.
+    </p>
+</div>
+
+       
+       </form>
+
+        </section>
 
     </main>
 
