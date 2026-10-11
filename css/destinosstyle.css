@@ -120,3 +120,114 @@ body{
     color: #66964a;
     text-decoration: none;
 }
+
+/*---main----*/
+
+.main__contenedor{
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 60%;;
+}
+
+.main__descripcion-Pagina{
+    margin-right: 3rem;
+    text-align: center;
+    
+    
+}
+
+h1{
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.main__descripcion-Pagina p{
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.main__Rutas-container,.main__Rutas-Introduccion,.main__Rutas-parada,.main__Ruta1-Tabla-Contenedor{
+    display: inline-block;
+    vertical-align:middle;
+    background-color: #fffc;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 100%;
+}
+
+.main__Rutas-container h2{
+    text-align: center;
+    color: #66964a;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+
+}
+
+.main__Rutas-container h3{
+     text-align: center;
+    color: #66964a;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.main__Rutas-container p,
+.main__Rutas-container ul,
+.main__Rutas-container li{
+    text-align: center;
+    color: #66964a;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.main__descripcion-Rutas-img{
+    display: block;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    
+}
+
+.main__Rutas-parada{
+    margin-top: 2rem;
+    
+}
+
+.main__Ruta1-Tabla {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #66964a;
+    border-top: 0.8rem solid #225713;
+    border-bottom: 0.8rem solid #225713;
+    border-left: 0.4rem solid #225713;
+    border-right: 0.4rem solid #225713;
+    
+}
+
+
+/**---footer--**/
+footer{
+    background-color: #66965f;
+    opacity: 79%;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    vertical-align: bottom;
+    
+    
+
+}
+
+footer p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
