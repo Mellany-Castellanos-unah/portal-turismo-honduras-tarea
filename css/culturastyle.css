@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../imagenes/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/*---header----*/
+
+.header{
+    background-color:#66964a;
+    color:#fff;
+    height: 5rem;
+}
+
+.header__logo-contenedor{
+    height: 5rem;
+    width: 5rem;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.header__logo{
+    border-radius: 90px;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    
+    
+}
+
+.header__nav{
+    margin-left: 5rem;
+    display: inline-block;
+    vertical-align: middle;
+    
+
+    
+}
+
+.header__nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 20px;
+    border: 0.5rem solid #fffc;
+    background-color: #ffff;
+    border-radius: 40px;
+
+    
+    
+    
+}
+
+.header__nav-link a{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #66964a;
+    background-color:transparent;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+
+/**----Nav de referencias a la pagina actua----**/
+
+.Referencias-PaginaActual{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    background-color: #fffc;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 22%;
+    min-height: 25rem;
+
+    
+
+}
+
+.Referencias-PaginaActual ul{
+    list-style:none;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.Referencias-PaginaActual__elemento a{
+    font-size: 18px;
+    color: #66964a;
+    font-weight: bolder;
+    text-decoration: none;
+
+    
+}
+
+.Referencias-PaginaActual__botonaccion{
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    border: 5px solid #66964a;
+    border-radius: 20px;
+    color: #66964a;
+    text-decoration: none;
+}
+
+/*---main----*/
+
+.main__contenedor{
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 60%;;
+}
+
+.main__descripcion-Pagina{
+    margin-right: 3rem;
+    text-align: center;
+    
+    
+}
+
+h1{
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.main__descripcion-Pagina p{
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.main__Datos-container,.main__Datos-PensamientoFM,.main__Proceres, .main__Etnias, .main__Gastronomia{
+    display: inline-block;
+    vertical-align:middle;
+    background-color: #fffc;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.main__Datos-container h2{
+    text-align: center;
+    color: #66964a;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+
+}
+
+.main__Datos-container h3{
+     text-align: center;
+    color: #66964a;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.main__Datos-container p,
+.main__Datos-container ul,
+.main__Datos-containerli{
+    text-align: center;
+    color: #66964a;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+.main__Proceres-img{
+    display: block;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    
+}
+
+.main__Etnias-img{
+    display: block;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.main__Gastronomia-table {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #66964a;
+    border-top: 0.8rem solid #225713;
+    border-bottom: 0.8rem solid #225713;
+    border-left: 0.4rem solid #225713;
+    border-right: 0.4rem solid #225713;
+    
+}
+
+
+.main__Gastronomia-table-Imagen{
+    display: block;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+
+}
+
+
+
+
