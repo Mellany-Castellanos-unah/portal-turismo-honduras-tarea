@@ -104,7 +104,7 @@ h1{
 
 
 
-/**Seccion**/
+/**---Seccion Referencias----**/
 .Referencias-PaginaActual{
     display: inline-block;
     vertical-align: top;
@@ -136,19 +136,75 @@ h1{
 }
 
 .Referencias-PaginaActual__botonaccion{
-    margin-top: 3.5rem;
-    margin-left: 1.4rem;
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
     text-align: center;
     font-size: 15px;
     font-family: sans-serif;
     font-weight: bolder;
-    padding: 13px;
-    border-radius: 40px;
-    border-color: #66964a;
+    padding: 10px;
+    border: 5px solid #66964a;
+    border-radius: 20px;
     color: #66964a;
-    
+    text-decoration: none;
+}
+
+
+/**---Seccion Destinos----**/
+
+.main__destinos{
+    background-color: #fff9;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-top: 2rem;
 
 }
+
+.main__destinos-titulo{
+    text-align: center;
+    color: #669643;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+
+
+.main__destinos-elemento h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+.main__destinos-elemento-img{
+    max-width:700px;
+    margin: auto; 
+    margin-bottom: 2rem;
+}
+
+.main__destinos-elemento p{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.main__destinos-elemento-boton{
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 18rem;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    border: 5px solid #66964a;
+    border-radius: 20px;
+    color: #66964a;
+    text-decoration: none;
+
+}
+
 
 
 
