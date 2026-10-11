@@ -205,6 +205,74 @@ h1{
 
 }
 
+/***---Seccion de resumen****/
+.main__Resumen{
+    background-color: #fff9;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+
+.main__Resumen-titulo{
+    text-align: center;
+    color: #669643;
+    font-weight: bolder;
+    font-size: 35px;
+    margin-bottom: 2rem;
+}
+
+.main__Resumen-elemento{
+    background-color:#66965f;
+    border-radius: 5px;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.main__Resumen-elemento h2{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.main__Resumen-elemento p{
+    font-size: 15px;
+    text-align: center;
+    margin: 0.5rem;
+    
+    
+    
+}
+
+.main__Resumen-elemento ul,li{
+    font-size: 15px;
+    margin: 0.5rem;
+    
+    
+}
+
+/**---footer--**/
+footer{
+    background-color: #66965f;
+    opacity: 79%;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    vertical-align: bottom;
+    
+    
+
+}
+
+footer p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 
 
 
