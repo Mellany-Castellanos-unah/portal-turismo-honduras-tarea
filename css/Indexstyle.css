@@ -6,7 +6,15 @@
 
 body{
     font-family: sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../imagenes/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
+
+
+/*---header----*/
 
 .header{
     background-color:#66964a;
@@ -47,7 +55,7 @@ body{
     margin-right: 40px;
     margin-left: 20px;
     border: 0.5rem solid #fffc;
-    background-color: #fffe;
+    background-color: #ffff;
     border-radius: 40px;
 
     
@@ -64,6 +72,94 @@ body{
     padding: 10px;
 
 }
+
+/*---main----*/
+
+.main__contenedor{
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 60%;;
+}
+
+.main__descripcion-Pagina{
+    margin-right: 3rem;
+    text-align: center;
+    
+    
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.lema{
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+/**Seccion**/
+.Referencias-PaginaActual{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    background-color: #fffc;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 22%;
+    min-height: 25rem;
+
+    
+
+}
+
+.Referencias-PaginaActual ul{
+    list-style:none;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.Referencias-PaginaActual__elemento a{
+    font-size: 18px;
+    color: #66964a;
+    font-weight: bolder;
+    text-decoration: none;
+
+    
+}
+
+.Referencias-PaginaActual__botonaccion{
+    margin-top: 3.5rem;
+    margin-left: 1.4rem;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding: 13px;
+    border-radius: 40px;
+    border-color: #66964a;
+    color: #66964a;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
