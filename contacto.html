@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/contactostyle.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="header__logo-contenedor">
+            <img class="header__logo" src="imagenes/icono.png" alt="logo de HonduTravel">
+        </div>
+        <nav class="header__nav">
+            <ul>
+                <li class="header__nav-link"><a href="index.html">Principal</a></li>
+                <li class="header__nav-link"><a href="destinos.html">Destinos y Rutas</a></li>
+                <li class="header__nav-link"><a href="cultura.html">Cultura y Gastronomia</a></li>
+                <li class="header__nav-link"><a href="reservaciones.html">Reservaciones</a></li>
+                <li class="header__nav-link"><a href="contacto.html">Contacto</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main__contenedor">
+        <section class="main__contenedor-Contacto">
+            <h2>¡Contactanos!</h2>
+            <P>
+                Bienvenido al centro de atención y soporte para visitantes de HonduTravel. 
+                Estamos disponibles para brindarte orientación, asistencia vial y resolver 
+                cualquier consulta durante tu recorrido por las maravillas de Honduras.
+            </P>
+            <div class="main__contenedro-Contacto-elemento">
+                <h2>1.Oficinas de Información Turística</h2>
+                 <p>
+                    Estamos ubicados en el bulevar Morazan contiguo al restaurante Hacienda Casa 
+                    Blanca en Plaza Los Lirios en el tercer nivel, oficina #35.
+                 </p>
+            </div>
+
+            <div class="main__contenedro-Contacto-elemento">
+                <h2>2.Teléfonos de Emergencia y Asistencia Vial</h2>
+                 <p>
+                    Conserva estos números a la mano durante tus traslados en carretera o 
+                    visitas a los diferentes destinos turísticos:
+                 </p>
+                 <ul>
+                    <li>Telefono de emergencia de asistencia: +504 2238-4066</li>
+                    <li>Cruz Roja Hondureña: +504 2237-1800.</li>
+                    <li>Línea de Emergencia Nacional (Sistema 911): 911 (Policía, atención médica y cuerpos de socorro).</li>
+                    <li>Cuerpo de Bomberos de Honduras: 198.</li>
+                 </ul>
+            </div>
+
+            <div class="main__contenedro-Contacto-elemento">
+                <h2>3. Canales Oficiales y Correo Electrónico</h2>
+                 <p>
+                    Nos puedes escribir a los siguientes correos electronicos para asistencia:
+                    contacto@hondutravel.hn /asistencia@hondutravel.hn.
+
+                    Siguenos en nuestras paginas oficiales:
+                 </p>
+                 <ul>
+                    <li>Facebook:@HonduTravelOficial  </li>
+                    <li>Instagram: @HonduTravelOficial</li>
+                    <li>Sitio web oficial: www.hondutravel.hn</li>
+                 </ul>
+            </div>
+
+            <section class="main__contenedor-Form">
+               <h2>Formulario de Consultas</h2>
+               <form action="afiliados.php" ,method="POST",enctype="multipart/form-data">
+                 <fieldset class="main__contenedor-Form-DatosPersonales">
+                    <legend >Datos Personales</legend>
+        
+                   <label class="main__contenedor-Form-DatosPersonales-InputLabel">Nombre del viajero titular: </label>
+                   <input class="main__contenedor-Form-DatosPersonales-Input" type="text" name="nombre" id="nombre" required placeholder="Ingrese su nombre y apellido" minlength="10" maxlength="100">
+
+                   <label class="main__contenedor-Form-DatosPersonales-InputLabel">Numero de telefono:</label>
+                   <input  class="main__contenedor-Form-DatosPersonales-Input" type="tel" name="numero" id="numero" required placeholder="Ingrese su numero de telefono" minlength="11" maxlength="11" required pattern="">
+
+                   <label class="main__contenedor-Form-DatosPersonales-InputLabel">Correo electronico:</label>
+                   <input class="main__contenedor-Form-DatosPersonales-Input" type="email" name="correoE" id="correoE" required placeholder="Ingrese su correo electronico" minlength="30" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}" >
+        
+                </fieldset>
+
+                <fieldset class="main__contenedor-Form-DatosConsulta">
+                 <legend> Motivo de Consulta</legend>
+                  <label class="main__contenedor-Form-DatosConsulta-InputLabel">Seleccione una opcion: </label>
+                  <select class="main__contenedor-Form-DatosConsulta-Input" id="Ruta" name="Ruta">
+                     <option >Consulta general</option>
+                     <option>Reporte de asistencia vial</option>
+                     <option>Comentarios/sugerencias</option>
+                    <option>Solicitudes extras</option>
+                  </select>
+
+                  <label class="main__contenedor-Form-DatosConsulta-InputLabel">Ingrese su consulta:</label>
+                  <textarea  class="main__contenedor-Form-DatosConsulta-Input" placeholder="Mensaje..."> 
+                  </textarea>
+
+                  <button class="main__contenedor-Form-boton">Enviar</button>
+
+        </form>
+        </section>
+
+    </main>
+
+
+    <footer>
+         <p>&copy; 2026 [HonduTravel]. Todos los derechos Reservados</p>
+
+        <p>Desarrollado por: Mellany Castellanos   | Numero de cuenta:20211002333</p>
+    </footer>
+
+    
+</body>
+</html>
